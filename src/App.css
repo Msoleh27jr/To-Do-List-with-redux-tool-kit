@@ -1,0 +1,61 @@
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.inputs,
+.edit-inputs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.inputs input,
+.edit-inputs input,
+.inputs select,
+.edit-inputs select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  min-width: 120px;
+}
+
+button {
+  padding: 8px 14px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.user-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr 100px 100px 100px;
+  gap: 10px;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.user-table h1,
+.user-table h2 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.user-table input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
